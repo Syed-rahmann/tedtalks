@@ -780,3 +780,81 @@ zeus {
 .cars{
     width: 70%;
 }
+/* 14-inch Laptop Screens (1366px and larger) */
+@media screen and (max-width: 1366px) {
+    .main {
+        width: 80vw;
+    }
+    .navbar {
+        height: 8vh;
+    }
+    .card-1 {
+        gap: 40px;
+    }
+    .thor {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .monkeyright img {
+        width: 600px;
+        height: 250px;
+    }
+}
+
+/* Mobile Devices (up to 768px) */
+@media screen and (max-width: 768px) {
+    .main {
+        width: 90vw;
+    }
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+    .nav-first, .nav-second {
+        width: 100%;
+        justify-content: center;
+        margin: 5px 0;
+    }
+    .card-1 {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    .firstcardleft, .firstcardright {
+        margin-top: 5vh;
+    }
+    .thor {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .pokemon {
+        flex-direction: column;
+        height: auto;
+    }
+    .pot1, .pot2, .pot3 {
+        width: 100%;
+    }
+    .monkeykong {
+        flex-direction: column;
+        height: auto;
+    }
+    .monkeyright img {
+        width: 100%;
+        height: auto;
+    }
+    .bada-wala-tetx {
+        font-size: 3rem;
+        width: 100%;
+    }
+    .scorpion {
+        flex-direction: column;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}

@@ -341,3 +341,442 @@ width:40% ;
     width: 100%;
     height: auto;
 }
+
+
+
+.scorpion {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.subzero {
+    background-color: #1c1c1c;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+.subzero p{
+    color: white;
+}
+
+.subzero img {
+    width: 150px;
+    border-radius: 5px;
+}
+
+.subzero button {
+    margin-top: 10px;
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.raiden {
+    
+    background-color: #111;
+    padding: 20px;
+    color: white;
+}
+
+.raiden input {
+    padding: 10px;
+    width: 290px;
+    margin-right: 6px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    margin: 25px;
+}
+
+.raiden button {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Footer Section Styling */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    background-color: black;
+    color: white;
+}
+
+.footer-column {
+    width: 25%;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: red;
+}
+
+.newsletter {
+    width: 100%;
+    max-width: 300px;
+    background-color: #111;
+    padding: 15px;
+    border-radius: 5px;
+   
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.newsletter button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.social-icons img {
+    width: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.bottom-footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #111;
+    color: gray;
+    font-size: 12px;
+}
+
+.bottom-footer a {
+    color: gray;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.bottom-footer a:hover {
+    color: red;
+}
+
+.app-buttons {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.app-buttons img {
+    width: 120px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.ultra{
+    display: flex;
+    background-color: #111;
+    justify-content: center;
+}
+.garden {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 50px;
+    width: 90%;
+}
+
+.rose {
+    width: 60%;
+}
+
+.rose h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.rose p {
+    font-size: 16px;
+    color: gray;
+    line-height: 1.5;
+}
+
+.rose .tulip {
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.sunflower {
+    width: 40%;
+    display: flex;
+    gap: 20px;
+}
+
+.daisy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 10px;
+}
+
+.daisy img {
+    width: 260px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.daisy .lily {
+    flex: 1;
+}
+
+.daisy .tulip {
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+}
+
+.daisy h3 {
+    font-size: 16px;
+    margin: 5px 0;
+    font-weight: bold;
+}
+
+.daisy p {
+    font-size: 12px;
+    color: gray;
+}
+
+.orchid {
+    text-align: left;
+    margin-top: 50px;
+    padding-top: 20px;
+    border-top: 1px solid lightgray;
+    display: flex;
+    justify-content: space-between;
+}
+.orchid div{
+    width: 40%;
+}
+
+.orchid h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.orchid p {
+    font-size: 16px;
+    color: black;
+}
+
+.orchid a {
+    color: black;
+   
+    
+}
+
+.orchid a:hover {
+    text-decoration: underline;
+}
+
+zeus {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.poseidon {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.hades {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.apollo {
+    font-size: 32px;
+    font-weight: bold;
+    color: black;
+}
+
+.ares {
+    flex: 1;
+}
+
+.hermes {
+    font-size: 12px;
+    font-weight: bold;
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+
+.athena {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.artemis {
+    font-size: 14px;
+    color: gray;
+}
+
+.spongebob {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    width: 100%;
+    height: auto;
+  
+}
+
+.patrick {
+    flex: 1;
+    max-width: 50%;
+}
+
+.sandy {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.squidward {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.mrkrabs {
+    background-color: white;
+    color: black;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.mrkrabs:hover {
+    background-color: #ddd;
+}
+
+.gary {
+    flex: 1;
+    max-width: 50%;
+}
+
+.gary img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.lightning {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.mater {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.sally {
+    color: red;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.doc {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+.finn {
+    flex: 1;
+}
+
+.holley {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.ramone {
+    font-size: 14px;
+    color: gray;
+}
+
+.guido {
+    flex-shrink: 0;
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.luigi {
+    text-align: right;
+    font-size: 14px;
+    color: #000;
+    font-weight: bold;
+}
+.cars{
+    width: 70%;
+}
